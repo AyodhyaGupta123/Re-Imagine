@@ -14,7 +14,7 @@ html,body{
     z-index: 999999;
     width: 100%;
     height: 100vh;
-    background-color: #eae7e7;
+    background-color: #ffffff;
 }
 #mobilenav .nav{
     display: flex;
@@ -696,8 +696,11 @@ transform: translateX(300%);
     justify-content: center;
 }
 #work h1{
-    font-size: 15vw;
-    font-weight: 500;
+    border-radius: 4px;
+    background-color: #161515;
+    color: rgb(150, 27, 27);
+    font-size: 16vw;
+    font-weight: 600;
     text-transform: uppercase; 
     font-family: roobert;
     font-family: "FH Giselle";  
@@ -784,12 +787,12 @@ transform: translateX(300%);
     #part2 .text #rcontant .h1s .hline h1{
         font-size: 3vw;
     }
-    .button h5{
-        font-size: 5vw;
+    .button h3{
+        font-size: 6vw;
     }
     .button{
         margin-top: 4vw;
-        padding-left:6vw;
+        padding-left:5vw;
         align-items: center;
         justify-content: center;
     }
@@ -1388,5 +1391,144 @@ transform: translateX(300%);
     }
    
   }
+
+  #main{
+    width: 100%;
+    overflow: hidden;
+    background-color: #fffefe;
+}
+#part1{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.img{
+    padding-left: 3vw;
+    display:flex;
+    align-items: center;
+    gap: 20vw;
+ width: 100%;
+}
+ .img .img1{
+    width: 40%;
+    height: 120vh;
+}
+
+.img .img1 .photo{
+    width: 100%;
+    height: 85%;
+}
+ .img .img1 .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#part4 .img .img1 .text{
+    padding-top: 1vw;
+    width: 100%;
+    height: 15%;
+}
+#part4 .img .img1 .text h5{
+    font-family: gilroy;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 2px;
+}
+#part4 .img .img1 .text h3{
+    font-family: gilroy;
+    font-size: 1.8vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#part4 .img .img2{
+    width: 30%;
+    height: 70vh;
+    background-color: red;
+}
+
+.img .img2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html.has-scroll-smooth {
+    overflow: hidden; }
+  
+  html.has-scroll-dragging {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  
+  .has-scroll-smooth body {
+    overflow: hidden; }
+  
+  .has-scroll-smooth [data-scroll-container] {
+    min-height: 100vh; }
+  
+  [data-scroll-direction="horizontal"] [data-scroll-container] {
+    height: 100vh;
+    display: inline-block;
+    white-space: nowrap; }
+  
+  [data-scroll-direction="horizontal"] [data-scroll-section] {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 100%; }
+  
+  .c-scrollbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 11px;
+    height: 100%;
+    transform-origin: center right;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0; }
+    .c-scrollbar:hover {
+      transform: scaleX(1.45); }
+    .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+      opacity: 1; }
+    [data-scroll-direction="horizontal"] .c-scrollbar {
+      width: 100%;
+      height: 10px;
+      top: auto;
+      bottom: 0;
+      transform: scaleY(1); }
+      [data-scroll-direction="horizontal"] .c-scrollbar:hover {
+        transform: scaleY(1.3); }
+  
+  .c-scrollbar_thumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+    width: 7px;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: -webkit-grab;
+    cursor: grab; }
+    .has-scroll-dragging .c-scrollbar_thumb {
+      cursor: -webkit-grabbing;
+      cursor: grabbing; }
+    [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
+      right: auto;
+      bottom: 0; }
+
+.light{
+    color: #000;
+    background-color: #fff;
+}
+
+.dark{
+    color: #fff;
+    background-color: #000;
+}
 
 
