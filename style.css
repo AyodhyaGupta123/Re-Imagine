@@ -54,8 +54,8 @@ html,body{
     height: 100%;
 }
 #mobilenav #menu .text a{
-    font-family: serif;
-    font-size: 7vw;
+    font-family: IBM Plex Sans;
+    font-size: 6vw;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -214,7 +214,7 @@ transform: translateX(300%);
     justify-content: center;
     display: none;
     padding-right: 10px;
-    gap: 8px;
+    gap: 5px;
     height: 100%;
 }
 #nav .menu .line{
@@ -445,7 +445,6 @@ transform: translateX(300%);
     align-items: flex-start;
     gap: 2vw;
     justify-content: center;
-
     width: 60%;
     height: 100vh;
 }
@@ -604,7 +603,7 @@ transform: translateX(300%);
     position: absolute;
     top: 2%;
     left: 9%;
-    margin-left: 2.5vw;
+    margin-left: 4vw;
     text-transform: capitalize;
     font-family:"roobert";
     font-size: 5vw;
@@ -621,16 +620,16 @@ transform: translateX(300%);
  
  #section1 .swiper {
     width: 420px;
-    height: 300px;
+    height: 350px;
     padding: 60px;
-    margin-top:70px;
+    margin-top:80px;
   }
 
   #section1 .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 400px;
-    height: 300px;
+    height: 350px;
   }
 
   #section1 .swiper-slide img {
@@ -697,13 +696,12 @@ transform: translateX(300%);
 }
 #work h1{
     border-radius: 4px;
-    background-color: #161515;
-    color: rgb(150, 27, 27);
+    background-color: #bcc48c53;
+    color: rgba(96, 185, 140, 0.642);
     font-size: 16vw;
     font-weight: 600;
     text-transform: uppercase; 
-    font-family: roobert;
-    font-family: "FH Giselle";  
+    font-family: IBM Plex Sans;
 }
 .card{
     position: absolute;
@@ -1519,16 +1517,6 @@ html.has-scroll-smooth {
       cursor: grabbing; }
     [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
       right: auto;
-      bottom: 0; }
-
-.light{
-    color: #000;
-    background-color: #fff;
-}
-
-.dark{
-    color: #fff;
-    background-color: #000;
-}
-
+      bottom: 0; 
+    }
 
